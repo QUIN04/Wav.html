@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h1{
+      color: dodgerblue;
+      font-style: bold ;
+      position: center;
+
+    }
+    span{
+      color: black;
+    }
+    img{
+      height:400px;
+      width: 1150px;
+    }
+
+    *{
+      box-sizing: border-box;
+    }
+    html, body {
+      margin: 0;
+      padding: 0; }
+      .nav-bar a{
+        text-decoration: none;
+        color: black;
+        display: block;
+      }
+      .nav-bar > ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .nav-bar > ul > li > a{
+        padding: 10px;
+        background: lightgrey;
+      }
+      .nav-bar > ul > li > a:hover{
+        background: #173459;
+        color: #f8f9f9;
+      }ss
+
+  </style>
+</head>
+<body>
+  <br>
+ <center> <h1>  THE UNIVERSITY OF QUINBOT</h1><br><br><br></center>
+ <div class="nav-bar">
+  <ul><li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\UniversityOfQUINBOT.html" href="active">Home</a></li>
+    <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\OurHistory.html">Our History</a></li>
+    <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\Abt.html">About</a></li>
+    <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\menu.html">Menu</a></li>
+    <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\apple.html">Application</a></li>
+    <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\advert.html">Advertisment</a></li></ul><br><br>
+ <center><img src="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\graduation-01-as-gty-200513_hpMain_4x3_992.jpg" alt=""></center><br><br>
+  <span>Welcome to the University of QUINBOT.
+    QUINBOT is an institute of great honour and intectuality. The name QUINBOT originates from the name her Founder and CEO ; Dr. QUINUEL TABOT NDIP-AGBOR. This institute was created on 04th of September 2022 in Buea. <br><br>
+    It was created to shoulder the needs of the Cameroonian society and bring up heirs that will constructively lead and sustain the country with its resources. Stating of with just a single building, Today, We are the biggest and most renowned university in Cameroon and Central Africa.Encouraged by the following words from the administration :<br><br>
+    1)	Happiness is not necessary the smile on my face or the intense laugther  but happiness is that deep breath of content that I take in and out with assurance that everything is ok at the moment and will be even better with time. <br>
+    2)	I am Golden, Universe, Legend and Divine. <br>
+    3)	I know that I am alive when all the situations in my life make me smile, cry, laugh and give me memories to hold on to. <br>
+    4)	Trust myself , love myself , respect myself and be myself because My Life is not an option or a choice, It is a Masterpiece. <br>
+    5)	I will remain positive and keep fighting because more to my weaknesses I am my strength, with God , I remain the TOP. <br><br>
+    We eocourage our students to stay golden minded and with the help of the administration and God by our side, we assure a successful learning journey.
+    
+  </span><br>
+ 
+</body>
+</html>
