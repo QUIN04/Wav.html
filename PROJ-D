@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    button{
+      background-color: gray    }
+    .container{
+      display: flex;
+      background-color: darkblue;
+    }
+    .container > form {
+      background: lightblue;
+      height: 600px;
+      width: 200px;
+      margin: 20px;
+    }
+    h1{
+      color: deepskyblue;
+      font-weight: 200;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-style: normal;
+    }
+    p{
+      font-style: italic;
+    }
+    img{
+    
+      height: 50px;
+      width: 50px;
+    }
+
+    *{
+      box-sizing: border-box;
+    }
+    html, body {
+      margin: 0;
+      padding: 0; }
+      .nav-bar a{
+        text-decoration: none;
+        color: black;
+        display: block;
+      }
+      .nav-bar > ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .nav-bar > ul > li > a{
+        padding: 10px;
+        background: lightgrey;
+      }
+      .nav-bar > ul > li > a:hover{
+        background: #173459;
+        color: #f8f9f9;
+      }
+      
+
+  </style>
+</head>
+<body><br>
+
+  <center><h1>WELCOME TO THE UNIVERSITY OF QUINBOT</h1></center><br><br><br>
+  <div class="nav-bar">
+    <ul><li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\UniversityOfQUINBOT.html" href="active">Home</a></li>
+      <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\OurHistory.html">Our History</a></li>
+      <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\Abt.html">About</a></li>
+      <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\menu.html">Menu</a></li>
+      <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\apple.html">Application</a></li>
+      <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\advert.html">Advertisment</a></li></ul><br><br>
+  <p>This application is used for registration only</p><br>
+  <div>NOTE!!!!: Upon entering your faculty of choice, you will be channeled to the faculty's page where you will complete your registration.</div><br><br>
+ <div class="container">
+  <form action=""> 
+    <center>
+      <img src="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\20220907_150747.png" alt="">
+       <label for="demo">FULL NAME:</label>
+     <input type="text" id="demo"> <br><br>
+     <label for="demo">LEVEL:</label>
+     <input type="text" id="demo"> <br><br>
+     <label for="demo">AGE:</label>
+     <input type="text" id="demo"> <br><br>
+     <label for="demo">NATIONALITY:</label>
+     <input type="text" id="demo"> <br><br>
+     <label for="demo">EMAIL ADDRESS:</label>
+     <input type="text" id="demo"> <br><br>
+     <label for="demo">HOME ADDRESS:</label>
+     <input type="text" id="demo"> <br><br>
+     <label for="demo">PHONE NUMBER:</label>
+     <input type="text" id="demo"> <br><br>
+     <label for="demo">DEGREE PROGRAMME:</label>
+     <input type="text" id="demo"> <br><br>
+       <label for="">FACULTY OF CHOICE</label>
+       <input type="text"></input>
+      
+     <br><br>
+     <button onclick="getValue();">SUBMIT</button>
+     <script type="text/javascript">
+       function getValue(){
+         var value = document.getElementById('sam').value;
+         alert(value);
+       }
+     </script><br>
+     
+ </div>
+  </center>
+  </form>
+</body>
+</html>
