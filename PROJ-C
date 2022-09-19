@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=499, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h2{
+      color: dodgerblue;
+      background-color: black;
+    }
+    h3{
+      color: grey;
+    }
+    p{
+      font-style: italic;
+      color: black;
+    }
+    *{
+      box-sizing: border-box;
+    }
+    html, body {
+      margin: 0;
+      padding: 0; }
+      .nav-bar a{
+        text-decoration: none;
+        color: black;
+        display: block;
+      }
+      .nav-bar > ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .nav-bar > ul > li > a{
+        padding: 10px;
+        background: lightgrey;
+      }
+      .nav-bar > ul > li > a:hover{
+        background: #173459;
+        color: #f8f9f9;
+      }
+  </style>
+</head>
+<body>
+  <div class="nav-bar">
+    <ul><li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\UniversityOfQUINBOT.html" href="active">Home</a></li>
+      <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\OurHistory.html">Our History</a></li>
+      <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\Abt.html">About</a></li>
+      <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\menu.html">Menu</a></li>
+      <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\apple.html">Application</a></li>
+      <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\advert.html">Advertisment</a></li></ul><br><br>
+  <span>
+    <h2>Dr. QUINUEL TABOT NDIP-AGBOR</h2>
+    <h3>FOUNDER AND CEO</h3>
+    <p>Incharge of the management and day-to-day running of the university.</p><br><br><br>
+    <h2>Dr. Trevor Jacob Ashu</h2>
+    <h3>FACULTY SUPERVISOR</h3>
+    <p>Incharge of the faculties fundings and activities.</p><br><br><br>
+    <h2>Mrs Shellin Tusk</h2>
+    <h3>SOCIAL MANAGER</h3>
+    <p>Incharge of socials and advertisment</p>
+    
+  </span>
+</body>
+</html>
