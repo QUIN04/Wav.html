@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    header{
+      color: dodgerblue;
+      background-color: black;
+      font-weight: 400;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: large;
+    }
+    i{
+      color: black;
+    }
+    h2{
+      color: blue;
+    }
+    img{
+      left: 0;
+      padding-left: 5px;
+      height: 100px;
+      width: 100px;
+    }
+    span > img{
+      height: 350px;
+      width: 900px;
+    }
+    *{
+      box-sizing: border-box;
+    }
+    html, body {
+      margin: 0;
+      padding: 0; }
+      .nav-bar a{
+        text-decoration: none;
+        color: black;
+        display: block;
+      }
+      .nav-bar > ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .nav-bar > ul > li > a{
+        padding: 10px;
+        background: lightgrey;
+      }
+      .nav-bar > ul > li > a:hover{
+        background: #173459;
+        color: #f8f9f9;
+      }
+
+  </style>
+</head>
+<body>
+  <header><center><h1>UNIVERSITY OF QUINBOT</h1></center><img src="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\20220907_150747.png" alt=""></header>
+  <br><center><i>Legends Of sustainability</i></center><br>
+  <div class="nav-bar">
+    <ul><li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\UniversityOfQUINBOT.html" href="active">Home</a></li>
+      <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\OurHistory.html">Our History</a></li>
+      <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\Abt.html">About</a></li>
+      <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\menu.html">Menu</a></li>
+      <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\apple.html">Application</a></li>
+      <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\advert.html">Advertisment</a></li></ul><br><br>
+     
+     <center><h2>Welcome To The University Of QUINBOT</h2></center>
+  <center><span><img src="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\image_750x_61161cc118082.jpg" alt="" width="600px" height="400px"></span></center>
+  <br> <br>
+  <br>
+  <blockquote cite="https://www.goalcast.com/2017/12/07/27-bill-gates-quotes/">
+    If all my brigde coach ever told me was that I was 'satisfactory', I would have no hope of ever getting better. How would I know who was the best? How would I know what I was doing differently?
+  </blockquote>
+  <cite style="float:right;">-Bill Gates.</cite>
+  <br>
+     <iframe width="560" height="315" src="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\Chris_Brown_-_Iffy_[Official_Audio](240p).mp4" frameborder="0"></iframe>
+   
+  </div>For more information, visit our email adddress; quinbot@gmail.com.<br><br>
+  <span>Or call our numbers: 000876543345/ 44565654327 </span>
+
+</body>
+</html>
