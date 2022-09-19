@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+  p{
+    font-style: italic;
+  }
+  h2{
+color: dodgerblue;
+background-color: black;
+  }
+  *{
+      box-sizing: border-box;
+    }
+    html, body {
+      margin: 0;
+      padding: 0; }
+      .nav-bar a{
+        text-decoration: none;
+        color: black;
+        display: block;
+      }
+      .nav-bar > ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .nav-bar > ul > li > a{
+        padding: 10px;
+        background: lightgrey;
+      }
+      .nav-bar > ul > li > a:hover{
+        background: #173459;
+        color: #f8f9f9;
+      }
+      table, td {
+        border: 1px solid black;
+        border-spacing: 5px;
+      }
+      td{
+        padding: 5px;
+      }
+      th{
+        background-color: darkgray;
+      }
+</style>
+</head>
+<body>
+  
+  <h2>ABOUT THE UNIVERSITY OF QUINBOT</h2><br><br>
+  <div class="nav-bar">
+    <ul><li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\UniversityOfQUINBOT.html" href="active">Home</a></li>
+      <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\OurHistory.html">Our History</a></li>
+      <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\Abt.html">About</a></li>
+      <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\menu.html">Menu</a></li>
+      <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\apple.html">Application</a></li>
+      <li><a href="C:\Users\Quinuel TN-A\Desktop\MINI-PROJ\advert.html">Advertisment</a></li></ul><br><br>
+  University Of QUINBOT is an institute made up of 3 Faculties . These faculties have 4 departments each. Each faculty is ran and supervised to their respective deans based on their budgets and schedules for the acadenmic year. <br>
+  Added to that, We have orientation seminars organised every semester not only for fresh-man students but for the entire academic body. The aim of this orientation is to update, refresh, remind, caution and guide the entire academic body. This helps us better manage our social,economic and administrative family, There achiving our goals and vision. <br><br>
+  Our Faculties of studies include: <br>
+  1)Faculty Of Arts <br><br>
+2)Faculty Of Engineering And Technology <br><br>
+3)Faculty Of Science  <br><br>
+<p>To more about the various Faculties in this institution:</p>
+<select id="" multiple>
+  <option value="">Faculty Of Arts</option>
+  <option value="">Faculty Of Engineering And Technology</option>
+  <option value="">Faculty Of Science</option>
+</select>
+<button onclick="getValues();">About Faculty</button>
+<script type="text/javascript">
+  function getValues(){
+    var options = document.getElement('sample').options;                                                                 
+  }
+</script>
+<h2>SCHOOL CALENDER OF ACTIVITIES IN THE UNIVERSITY OF QUINBOT</h2>
+<table style="background-color:black; width: 80%; margin: 0 auto; border: 2px solid black">
+  <colgroup>
+    <col style="background-color:aqua">
+    <col style="background-color:cornflowerblue">
+    <col style="background-color:blue;">
+  </colgroup>
+  <thead>
+    <span><tr> <th colspan="3">OUR 2022/2023 SCHOOL CALENDER</th></tr></span>
+    <tr>
+      <th>DATE</th>
+      <th>QUINBOT SCHOOL ACTIVITIES</th>
+      <th>COORDINATORS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>06/10/2022</td>
+      <td>Resumption of Undergraduates and Postgraduates</td>
+      <td>All Academic Staff</td>
+    </tr>
+    <tr>
+      <td>25/01/2023</td>
+      <td>First Semester Examination Begin</td>
+      <td>All Academic Staff</td>
+    </tr>
+    <tr>
+      <td>13/02/2023</td>
+      <td>First Semester Holidays</td>
+      <td>All Academic Staff</td>
+    </tr>
+    <tr>
+      <td>04/04/2023</td>
+      <td>Resumption of Undergraduates and Postgraduates</td>
+      <td>All Academic Staff</td>
+    </tr>
+    <tr>
+      <td>04/06/2023</td>
+      <td>Second Semester Examinations Begin </td>
+      <td>All Academic Staff</td>
+    </tr>
+    <tr>
+      <td>26/06/2023</td>
+      <td>Academic Family Vacation</td>
+      <td>All Academic Staff</td>
+    </tr>
+  
+  </tbody>
+
+</table>
+
+
+  
+  
+  
+</body>
+</html>
